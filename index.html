@@ -11,7 +11,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="index.css">
   <link rel="shortcut icon" href="./assets/logo/v-logo.png" type="image/x-icon">
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://smtpjs.com/v3/smtp.js">
+  </script>
   <!---unicons-->
   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 </head>
@@ -240,24 +242,24 @@
             </div>
           </div>
 
-          <form action="https://formspree.io/f/xjvzrrap" method="POST" class="contact__form grid">
+          <form action="https://formspree.io/f/mqkjrqpd" method="POST" class="contact__form grid">
 
             <div class="contact__content">
               <label class="contact__label">Name:</label><br>
-              <input type="text" name="name" placeholder="Full Name" class="contact__input" required>
+              <input type="text" id="name" name="name" placeholder="Full Name" class="contact__input" required>
             </div>
 
             <div class="contact__content">
               <label class="contact__label">Email:</label><br>
-              <input type="email" name="email" placeholder="E-mail" class="contact__input" required>
+              <input type="email" id="email" name="email" placeholder="E-mail" class="contact__input" required>
             </div>
 
             <div class="contact__content">
               <label class="contact__label">Message:</label><br>
-              <textarea name="" id="" required name="message" cols="0" rows="7" placeholder="Write your message here" class="contact__input"></textarea>
+              <textarea name="message" id="message" required name="message" cols="0" rows="7" placeholder="Write your message here" class="contact__input"></textarea>
             </div>
             <div>
-              <button type="submit" onclick="onSubmitForm()" class="button button--flex">
+              <button type="submit" onclick="onSubmitForm()" value="Send Email" class="button button--flex">
                 Send Message <i class="uil uil-message button__icon"></i>
               </button>
             </div>
