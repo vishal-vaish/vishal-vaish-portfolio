@@ -8,6 +8,9 @@
   scroll-behavior: smooth;
 }
 
+.content{
+  padding-bottom:15px ;
+}
 /* Custom Scroll Bar CSS */
 ::-webkit-scrollbar {
     width: 10px;
@@ -285,9 +288,10 @@ padding-bottom: 30px;
 }
 .college-details .p-year{
   flex: 2;
+
 }
 .p{
-  width: 75vw;
+  width: 65vw;
 }
 
  /* My Skills CSS */
@@ -333,6 +337,10 @@ padding-bottom: 30px;
   width: 100%;
   background-color: #ddd;
   border-radius: 20px;
+}
+#skill-gif{
+  width: 40%;
+  border: 2px solid #4070f4;
 }
 
 /* My Services CSS */
@@ -384,6 +392,54 @@ padding-bottom: 30px;
 .services .boxes .box:hover p{
   color: #fff;
 }
+.services-project{
+  padding:20px;
+height: 300%;
+width: 40%;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 60px;
+color: white;
+background-color: #6f91ee;
+border: 2px solid #4070f4;
+font-size: 20px;
+font-weight: 400;
+border-radius: 20px;
+}
+.services-project-name{
+  text-align: center;
+  padding-bottom: 15px;
+  font-weight: 400;
+  text-transform: uppercase;
+
+}
+.services-project-livedemo{
+  padding: 10px;
+  margin: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: white;
+  border: 3px solid white;
+}
+.services-project-repo{
+  padding: 10px;
+  margin-left: 40%;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: white;
+  border: 3px solid white;
+}
+.services-project-livedemo:hover{
+background-color: lightgreen;
+}
+
+.services-project-repo:hover{
+  background-color: lightgreen;
+}
+
+
+
 /* ---------Contact Me CSS ----------*/
 
 
@@ -602,6 +658,9 @@ footer .text span a:hover{
   }
   .contact .text{
     width: 100%;
+}
+img#skill-gif{
+  display: none;
 }
 }
 

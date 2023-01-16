@@ -81,7 +81,8 @@
           <div class="topic">Frontend Web Development</div>
           <p>I like to code things from scratch, and enjoy making creative web designs. I have learnt HTML, CSS,
             React.js
-            for front-end. Also I have used editors like VS Code, Atom. Other than that I'm also familiar with Bootstrap,
+            for front-end. Also I have used editors like VS Code, Atom. Other than that I'm also familiar with
+            Bootstrap,
             Git, Codepen</p>
           <div class="topic">Backend Web Development</div>
           <p>I have also learned javascript,Nodejs,Expressjs for Backend. Along- with that i have also used MongoDB and
@@ -161,52 +162,75 @@
               <div class="progress-bar" style="width:80%; background-color: #4070f4;">80%
               </div>
             </div>
-            <div class="box">
-              <div class="skills-name">CSS</div>
-              <div class="container">
-                <div class="progress-bar" style="width:70%; background-color: #4070f4;">70%
-                </div>
+          </div>
+          <div class="box">
+            <div class="skills-name">CSS</div>
+            <div class="container">
+              <div class="progress-bar" style="width:70%; background-color: #4070f4;">70%
               </div>
-              <div class="box">
-                <div class="skills-name">JavScript</div>
-                <div class="container">
-                  <div class="progress-bar" style="width:65%; background-color: #4070f4;">65%
-                  </div>
-                </div>
-                <div class="box">
-                  <div class="skills-name">ReactJs</div>
-                  <div class="container">
-                    <div class="progress-bar" style="width:55%; background-color: #4070f4;">55%
-                    </div>
-                  </div>
-                  <div class="box">
-                    <div class="skills-name">Node Js</div>
-                    <div class="container">
-                      <div class="progress-bar" style="width:50%; background-color: #4070f4;">50%
-                      </div>
-                    </div>
-                    <div class="box">
-                      <div class="skills-name">MySql</div>
-                      <div class="container">
-                        <div class="progress-bar" style="width:40%; background-color: #4070f4;">40%
-                        </div>
-                      </div>
-                      <div class="box">
-                        <div class="skills-name">PHP</div>
-                        <div class="container">
-                          <div class="progress-bar" style="width:25%; background-color: #4070f4;">25%
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+            </div>
+          </div>
+          <div class="box">
+            <div class="skills-name">JavScript</div>
+            <div class="container">
+              <div class="progress-bar" style="width:65%; background-color: #4070f4;">65%
+              </div>
+            </div>
+          </div>
+          <div class="box">
+            <div class="skills-name">ReactJs</div>
+            <div class="container">
+              <div class="progress-bar" style="width:55%; background-color: #4070f4;">55%
+              </div>
+            </div>
+          </div>
+          <div class="box">
+            <div class="skills-name">Node Js</div>
+            <div class="container">
+              <div class="progress-bar" style="width:50%; background-color: #4070f4;">50%
+              </div>
+            </div>
+          </div>
+          <div class="box">
+            <div class="skills-name">MySql</div>
+            <div class="container">
+              <div class="progress-bar" style="width:40%; background-color: #4070f4;">40%
+              </div>
+            </div>
+          </div>
+          <div class="box">
+            <div class="skills-name">PHP</div>
+            <div class="container">
+              <div class="progress-bar" style="width:25%; background-color: #4070f4;">25%
+              </div>
+            </div>
+          </div>
+        </div>
+        <img id="skill-gif" src="./assets/image/Career-Councelling.gif" alt="">
+      </div>
+    </div>
+    </div>
   </section>
 
   <!-- My Services Section Start -->
   <section class="services" id="services">
     <div class="content">
       <div class="title"><span>My Projects</span></div>
-
+      <div class="services-project">
+        <div class="services-project-list">
+          <div class="services-project-name">Meal-Finder</div>
+          <p class="services-project-des">By using meal finder application you can search for any food recipe. and it
+            also contains video links
+            related to specific recipe.</p>
+          <div class="services-project-menu">
+            <input type="button" class="services-project-livedemo" value="Live Demo" onclick="window.open('https://vishal-meal-finder.netlify.app/')">
+            <!-- <button class="services-project-repo">Repo</button> -->
+            <input type="button" class="services-project-repo" value="Repo" onclick="window.open('https://github.com/vishal-vaish/Meal-Finder')">
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
     </div>
   </section>
 
@@ -226,6 +250,14 @@
                 <div class="contact-type-details">+91-9198370829</div>
               </div>
             </div>
+            <div class="contact-columns-media">
+              <a href=""><i class="fas fa-envelope"></i></a>
+              <div class="contact-menu">
+                <div class="contact-type">E-mail</div>
+                <div class="contact-type-details">vishalvaish847@gmail.com</div>
+              </div>
+            </div>
+
             <div class="contact-columns-media">
               <a href="https://www.linkedin.com/in/vishal-vaish-95477714a/"><i class="fab fa-linkedin-in "></i></a>
               <div class="contact-menu">
@@ -256,7 +288,8 @@
 
             <div class="contact__content">
               <label class="contact__label">Message:</label><br>
-              <textarea name="message" id="message" required name="message" cols="0" rows="7" placeholder="Write your message here" class="contact__input"></textarea>
+              <textarea name="message" id="message" required name="message" cols="0" rows="7"
+                placeholder="Write your message here" class="contact__input"></textarea>
             </div>
             <div>
               <button type="submit" onclick="onSubmitForm()" value="Send Email" class="button button--flex">
