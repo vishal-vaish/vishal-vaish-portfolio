@@ -12,6 +12,8 @@
   <link rel="stylesheet" href="index.css">
   <link rel="shortcut icon" href="./assets/logo/v-logo.png" type="image/x-icon">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <script src="https://smtpjs.com/v3/smtp.js">
   </script>
   <!---unicons-->
@@ -39,9 +41,10 @@
       </ul>
       <div class="media-icons">
 
-        <a href="https://bit.ly/3W6T4BR"><i class="fab fa-whatsapp-square"></i></a>
-        <a href="https://www.linkedin.com/in/vishal-vaish-95477714a/"><i class="fab fa-linkedin-in"></i></a>
-        <a href="https://github.com/vishal-vaish"><i class="fab fa-github"></i></a>
+        <a href="https://bit.ly/3W6T4BR" target="_blank"><i class="fab fa-whatsapp-square"></i></a>
+        <a href="https://www.linkedin.com/in/vishal-vaish-95477714a/" target="_blank"><i
+            class="fab fa-linkedin-in"></i></a>
+        <a href="https://github.com/vishal-vaish" target="_blank"><i class="fab fa-github"></i></a>
       </div>
     </div>
     <div class="menu-btn">
@@ -191,20 +194,6 @@
               </div>
             </div>
           </div>
-          <div class="box">
-            <div class="skills-name">MySql</div>
-            <div class="container">
-              <div class="progress-bar" style="width:40%; background-color: #4070f4;">40%
-              </div>
-            </div>
-          </div>
-          <div class="box">
-            <div class="skills-name">PHP</div>
-            <div class="container">
-              <div class="progress-bar" style="width:25%; background-color: #4070f4;">25%
-              </div>
-            </div>
-          </div>
         </div>
         <img id="skill-gif" src="./assets/image/Career-Councelling.gif" alt="">
       </div>
@@ -216,21 +205,48 @@
   <section class="services" id="services">
     <div class="content">
       <div class="title"><span>My Projects</span></div>
-      <div class="services-project">
-        <div class="services-project-list">
-          <div class="services-project-name">Meal-Finder</div>
-          <p class="services-project-des">By using meal finder application you can search for any food recipe. and it
-            also contains video links
-            related to specific recipe.</p>
-          <div class="services-project-menu">
-            <input type="button" class="services-project-livedemo" value="Live Demo" onclick="window.open('https://vishal-meal-finder.netlify.app/')">
-            <!-- <button class="services-project-repo">Repo</button> -->
-            <input type="button" class="services-project-repo" value="Repo" onclick="window.open('https://github.com/vishal-vaish/Meal-Finder')">
+      <div class="service-title d-flex justify-content-evenly flex-row m-3 align-items-center flex-wrap">
+        <div class="card m-3" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">Meal-Finder</h5>
+            <p class="card-text">By using meal finder application you can search for any food recipe. and it also
+              contains video links related to specific recipe.</p>
+            <div class="service-menu">
+              <button type="button" class="service-demo" onclick="window.open('https://meal-finder-coral.vercel.app/')"
+                class="card-link">Live
+                Demo</button>
+              <button type="button" class="service-demo"
+                onclick="window.open('https://github.com/vishal-vaish/Meal-Finder')" class="card-link">Repo</button>
+            </div>
+          </div>
+        </div>
+        <div class="card m-3" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">Flipkart website clone</h5>
+            <p class="card-text">This project is based on the clone of the Flipkart, in which it
+              can sort the item , can add them in cart and proceed to Payment section.</p>
+              <div class="service-menu">
+            <button type="button" class="service-demo" onclick="window.open('https://flipkart-clone-seven.vercel.app/')"
+              class="card-link">Live Demo</button>
+            <button type="button" class="service-demo" onclick="window.open('https://github.com/vishal-vaish/Flipkart-clone')"
+              class="card-link">Repo</button>
+              </div>
+          </div>
+        </div>
+        <div class="card m-3" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">Reddit Website Clone</h5>
+            <p class="card-text">This project is based on reddit in which user can login, and can post in it. Design is
+              clean and Beautiful with a focus on user experience</p>
+            <div class="service-menu">
+              <button type="button" class="service-demo" onclick="window.open('https://reddit-clone-zeta-two.vercel.app/')"
+              class="card-link">Live Demo</button>
+            <button type="button" class="service-demo" onclick="window.open('https://github.com/vishal-vaish/Reddit-clone')"
+              class="card-link">Repo</button>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    </div>
     </div>
   </section>
 
