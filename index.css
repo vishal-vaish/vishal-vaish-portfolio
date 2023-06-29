@@ -265,6 +265,12 @@ section .button button:hover{
   background-color: #fff;
   color: #4070f4;
 }
+
+.about-cv{
+  color: white;
+}
+
+
 /* Academic  */
 .academic{
   background: #F0F8FF;
